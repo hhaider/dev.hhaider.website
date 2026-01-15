@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url('../resources/fonts/NotoSans/NotoSans-Light.ttf') format('truetype');
+}
+
+body {
+    font-size: 2em;
+    background-color: black;
+    color: white;
+    font-feature-settings: "rlig" 1, "calt" 0;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-family: 'Segoe UI', 'Noto Sans';
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+a {
+    cursor: pointer;
+}
+
+#icon {
+    display: block;
+    margin: auto;
+    width: 128px;
+    height: 128px;
+    scale: 60%;
+    background-image: url("../resources/avatar.png");
+    border-radius: 50%;
+}
+
+#dev-profile p {
+    display: block;
+    margin: auto;
+    padding: 0;
+}
+
+#dev-profile {
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+#bar {
+    font-size: medium;
+    height: 50px;
+}
+
+#bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#bar li {
+    float: left;
+}
+
+#bar li a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    color: rgb(160, 160, 160);
+}
+
+#bar li a:hover {
+    color: white;
+}
+
+#bar li a.selected {
+    color: white;
+}
+
+#bar .arrow-down {
+    display: block;
+    margin: 0;
+    padding-top: 2px;
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+#bar .arrow-down:hover {
+    stroke: white;
+}
+
+#profile-card,
+#experience-card,
+#projects-card,
+#services-card,
+#products-card,
+#contact-card {
+    border-top: 1px solid rgb(85, 85, 85);
+    border-bottom: 1px solid rgb(85, 85, 85);
+    background-color: rgb(34, 34, 34);
+    margin: auto;
+    padding: 0 10px;
+    text-align: left;
+    width: auto;
+    height: auto;
+    font-size: medium;
+}
+#projects-card span {
+    margin-left: 16px;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+#projects-card #google-play-badge img {
+    height: 64px;
+    width: 165px;
+    display: block;
+}
+#projects-card a#google-play-badge {
+    height: 64px;
+    display: block;
+    width: 165px;
+    position: relative;
+    margin-left: 100px;
+    scale: 0.8;
+    margin-top: -32px;
+}
+#products-card li {
+    width: 220px;
+}
+#products-card img {
+    cursor:pointer;
+    height: 18px;
+    float: right;
+    margin-left: 18px;
+}
+#products-card span {
+    margin-left: 18px;
+    float: right;
+}
+
+#contact-card span {
+    margin-left: 16px;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+#the-mortgage-app-card img {
+    background: image('demo/the-mortgage-app-web-components.png');
+    margin: auto;
+    padding: auto;
+    display: block;
+    text-align: left;
+    width: 95vw;
+    height: auto;
+    font-size: medium;
+}
+#demo-reel-card video {
+    background-color: rgb(34, 34, 34);
+    margin: auto;
+    padding: auto;
+    text-align: left;
+    width: 100vw;
+    height: auto;
+    font-size: medium;
+}
+section a {
+    color: white;
+}
+section a:hover {
+    color:rgb(85, 85, 85);
+}
+
+#contact-card a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact-card a:hover {
+    color: rgb(160, 160, 160);
+}
+
+h2 {
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#footer {
+    font-size: medium;
+    margin: 10px;
+    color: rgb(160, 160, 160);
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer .copyright {
+    float: left;
+}
+
+#footer .platform {
+    float: right;
+}
