@@ -111,20 +111,6 @@ a {
     margin-bottom: 4px;
     margin-top: 4px;
 }
-#projects-card #google-play-badge img {
-    height: 64px;
-    width: 165px;
-    display: block;
-}
-#projects-card a#google-play-badge {
-    height: 64px;
-    display: block;
-    width: 165px;
-    position: relative;
-    margin-left: 100px;
-    scale: 0.8;
-    margin-top: -32px;
-}
 #products-card li {
     width: 220px;
 }
@@ -155,15 +141,6 @@ a {
     height: auto;
     font-size: medium;
 }
-#demo-reel-card video {
-    background-color: rgb(34, 34, 34);
-    margin: auto;
-    padding: auto;
-    text-align: left;
-    width: 100vw;
-    height: auto;
-    font-size: medium;
-}
 section a {
     color: white;
 }
@@ -185,9 +162,13 @@ h2 {
 }
 
 ul {
-    margin: 0;
+    margin: 0 1rem;
     padding: 0;
     list-style-type: none;
+}
+ul ul {
+  padding-inline-start: 20px;
+  list-style-type: circle;
 }
 
 #footer {
